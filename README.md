@@ -3,7 +3,7 @@
 
 ## usage
 1. `make all`
-2. `./fillit <block file>` (see more about block files below)
+2. `./fillit <block file>`
 
 
 This program takes a text file as input, that is supposed to have the blocks that are going to be used by the program. Example of a valid file:
@@ -29,7 +29,9 @@ This program takes a text file as input, that is supposed to have the blocks tha
 ....
 
 ```
-The given tetris blocks **can't be rotated** and must be used in the orientation that it was presented.
+
+## rules (most of 'em)
+The given tetris blocks **can't be rotated by the program** and must be used in the orientation that they were presented.
 
 These blocks will then have to be fitted into a smallest possible square and each block will have to be labelled with the alphabet character in correspondece with the order it was given in the input file. All blocks must also be as top-left of the square as possible. A solution with the above blocks would look like this:
 ```
